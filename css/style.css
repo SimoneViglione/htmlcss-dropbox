@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header-container {
+    background-color: aqua;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    background-color: orange;
+    width: 30%;
+    height: 100%;
+}
+
+.header-right {
+    background-color: orange;
+    width: 30%;
+    height: 100%;
+}
