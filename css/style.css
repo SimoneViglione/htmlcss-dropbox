@@ -112,13 +112,13 @@
     margin: 10px 10px 0px;
 }
 
-.clients {
+.customers {
     background-color: orange;
     height: 200px;
     margin: 10px 190px;
 }
 
-.client-grid {
+.customers-grid {
     display: flex;
     margin-top: 10px;
 }
@@ -130,7 +130,7 @@
    flex-wrap: wrap;
 }
 
-.client1 {
+.customer1 {
     width: 50%;
     background-color: blueviolet;
     border-style: dotted;
