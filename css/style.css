@@ -21,4 +21,16 @@
     background-color: orange;
     width: 30%;
     height: 100%;
+    
+}
+
+.jumbotron {
+    height: 500px;
+    background-color: aquamarine;
+}
+
+.text-center {
+    background-color: green;
+    max-width: 1170;
+    height: 100px;
 }
