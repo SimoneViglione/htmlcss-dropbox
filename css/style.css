@@ -119,10 +119,37 @@
 }
 
 .client-grid {
-
+    display: flex;
+    margin-top: 10px;
 }
 
 .left-squares {
-   
+   height: 400px;
+   width: 400px;
+   display: flex;
+   flex-wrap: wrap;
+}
 
+.client1 {
+    width: 50%;
+    background-color: blueviolet;
+    border-style: dotted;
+}
+
+.central-overflow {
+    height: 400px;
+    width: calc(100% - 800px);
+    background-color: brown;
+}
+
+.right-squares {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.free-trial {
+    height: 200px;
+    background-color: aqua;
 }
