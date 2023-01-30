@@ -153,3 +153,33 @@
     height: 200px;
     background-color: aqua;
 }
+
+.FQ {
+    margin: 30px 190px;
+}
+
+.FQ-title {
+    background-color: crimson;
+    height: 200px;
+}
+
+.questions {
+    height: 150px;
+    background-color: aqua;
+    border-style: dotted;
+}
+
+.fr-black {
+    background-color: black;
+}
+
+.fr-flex {
+    display: flex;
+    margin: auto;
+}
+
+.fr-info {
+    background-color: darkgoldenrod;
+    width: calc(100% / 5);
+    height: 100%;
+}
