@@ -31,6 +31,14 @@
     padding: 5px;
 }
 
+.button-white {
+    background-color: white;
+    padding: 8px;
+    border: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+
 /* Regole di Utility*/
 
 .d-flex {
@@ -49,6 +57,14 @@
 
 .w-30 {
     width: 30%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-60 {
+    width: 60%;
 }
 
 .w-70 {
@@ -113,8 +129,7 @@ main {
     margin-top: 30px;
 }
 
-.column {
-    background-color: aquamarine;   
+.column {  
     height: 500px;
     width: calc(100% / 3);
     margin-right: 10px;
@@ -131,27 +146,30 @@ main {
 }
 
 
-.team {
-    background-color: aquamarine;
+#team {
     height: 200px;
-    margin: 10px 20px 0px;
+    margin-top: 30px;
+    border: solid;
+    border-width: 1px;
 }
 
-.partner {
-    display: flex;
+#partner {
+   margin-top: 40px;
+}
+
+.drop-partner {
     justify-content: center;
 }
 
-.img-left {
-    background-color: red;
-    height: 400px;
-    width: 600px;
+.img-left img {
+    height: 500px;
 }
 
 .text-right {
-    background-color: blueviolet;
-    height: 400px;
-    width: 500px;
+    padding: 50px 30px;
+}
+.text-right p {
+    margin: 10px 0;
 }
 
 .operations {
