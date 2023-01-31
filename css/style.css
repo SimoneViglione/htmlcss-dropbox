@@ -172,29 +172,39 @@ main {
     margin: 10px 0;
 }
 
-.operations {
-    margin: 10px 70px;
+#operations {
+    margin-top: 70px;
+}
+
+.op-title {
+    font-size: 25px;
 }
 
 .grid {
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin: auto;
+    gap: 10px;
 }
 
 .op {
-    background-color: cornflowerblue;
-    height: 300px;
-    width: calc(80% / 3);
-    border-style: dotted;
-    margin: 10px 10px 0px;
+    width: calc(90% / 3);
+    height: 400px;
+    margin-top: 40px;
 }
 
-.customers {
+.op img {
+    height: 70%;
+    width: 100%;
+}
+
+#customers {
+    margin-top: 100px;
+}
+
+.teams {
     background-color: orange;
     height: 200px;
-    margin: 10px 190px;
+    margin: 50px 0;
 }
 
 .customers-grid {
