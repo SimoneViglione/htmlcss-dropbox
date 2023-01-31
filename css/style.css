@@ -6,28 +6,32 @@
 
 .header-container {
     background-color: aqua;
-    height: 80px;
+    height: 60px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.header-container a {
+   
 }
 
 .header-left {
-    background-color: orange;
-    width: 30%;
-    height: 100%;
+   
 }
 
 .header-right {
-    background-color: orange;
-    width: 30%;
-    height: 100%;
     
 }
 
 .jumbotron {
     height: 500px;
     background-color: aquamarine;
-   
 }
 
 .jumbotron-flex {
