@@ -215,7 +215,7 @@ main {
     margin-top: 10px;
 }
 
-.left-squares {
+.square-container {
    height: 400px;
    width: 400px;
    display: flex;
@@ -236,22 +236,22 @@ main {
     left: 20%;
 }
 
-.central-overflow {
-    height: 400px;
-    width: calc(100% - 800px);
-    background-color: brown;
+.blue-bg {
+    background-color: rgb(180, 208, 231);
 }
 
-.right-squares {
-    height: 400px;
-    width: 400px;
-    display: flex;
-    flex-wrap: wrap;
+.trial-title {
+    width: 300px;
+    margin-right: 150px;
+    color: rgb(95, 3, 37);
 }
 
 .free-trial {
     height: 200px;
-    background-color: aqua;
+    align-items: center;
+}
+.free-trial .button-white {
+    height: 40px;
 }
 
 .FQ {
