@@ -226,6 +226,14 @@ main {
     width: 50%;
     background-color: blueviolet;
     border-style: dotted;
+    position: relative;
+}
+.customer1 img {
+    color: white;
+    width: 60%;
+    position: absolute;
+    top: 40%;
+    left: 20%;
 }
 
 .central-overflow {
