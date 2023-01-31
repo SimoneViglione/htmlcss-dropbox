@@ -6,6 +6,7 @@
 }
 
 .header-container {
+    background-color: white;
     height: 60px;
     width: 100%;
     display: flex;
@@ -30,26 +31,66 @@
     padding: 5px;
 }
 
-.jumbotron {
+/* Regole di Utility*/
+
+.container-big {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.container-small {
+    max-width: 1000;
+    margin: auto;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.relative {
+    position: relative;
+}
+/* Regole di Utility*/
+
+main {
+    padding-top: 60px;
+}
+
+#jumbotron {
     height: 500px;
+    background-color: rgb(180, 208, 231);
+}
+
+.title-big {
+    font-size: 60px;
+    margin-bottom: 20px;
 }
 
 .jumbotron-flex {
     display: flex;
     justify-content: center;
-    padding-top: 100px;
 }
 
-.jumbotron-flex .text-left {
-    background-color: blueviolet;
-    height: 400px;
-    width: 400px;
+.w-30 p{
+    margin: 20px 0;
+}
+.w-30 div {
+    display: inline-block;
+}
+.w-30 i {
+    margin-top: 30px;
+    font-size: 30px;
 }
 
-.jumbotron-flex .img-right {
-    background-color: red;
-    height: 400px;
-    width: 500px;
+#jumbo-img {
+    width: 90%;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .business-plan {
