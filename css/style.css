@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .header-container {
-    background-color: aqua;
     height: 60px;
     width: 100%;
     display: flex;
@@ -18,20 +18,20 @@
 }
 
 .header-container a {
-   
+    margin: 0 10px;
 }
-
 .header-left {
-   
+    margin-left: 10px;
 }
 
-.header-right {
-    
+.button {
+    background-color: rgb(0, 97, 255);
+    color: white;
+    padding: 5px;
 }
 
 .jumbotron {
     height: 500px;
-    background-color: aquamarine;
 }
 
 .jumbotron-flex {
@@ -87,7 +87,7 @@
 
 .img-left {
     background-color: red;
-    width: height: 400px;
+    height: 400px;
     width: 600px;
 }
 
