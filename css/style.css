@@ -33,13 +33,17 @@
 
 /* Regole di Utility*/
 
+.d-flex {
+    display: flex;
+}
+
 .container-big {
     max-width: 1170px;
     margin: auto;
 }
 
 .container-small {
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -54,6 +58,7 @@
 .relative {
     position: relative;
 }
+
 /* Regole di Utility*/
 
 main {
@@ -71,7 +76,6 @@ main {
 }
 
 .jumbotron-flex {
-    display: flex;
     justify-content: center;
 }
 
@@ -97,21 +101,35 @@ main {
     padding-top: 100px;
 }
 
-.business-title {
-    background-color: orange;
-    width: 800px;
+.business-title h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.business-title span {
+    margin-right: 40px;
 }
 
 .plans {
-    display: flex;
+    margin-top: 30px;
 }
 
 .column {
-    background-color: aquamarine;
+    background-color: aquamarine;   
     height: 500px;
     width: calc(100% / 3);
-    margin: 10px 20px 0px;
+    margin-right: 10px;
+    border-style: solid;
+    border-width: 1px;
 }
+.column-flex {
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid;
+    border-width: 1px;
+    font-weight: lighter;
+}
+
 
 .team {
     background-color: aquamarine;
