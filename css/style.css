@@ -39,7 +39,7 @@
 }
 
 .container-small {
-    max-width: 1000;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -93,15 +93,13 @@ main {
     top: 0;
 }
 
-.business-plan {
-    margin: 100px 200px;
+#business-plan {
+    padding-top: 100px;
 }
 
 .business-title {
     background-color: orange;
     width: 800px;
-    height: 200px;
-    margin-left: 30px;
 }
 
 .plans {
