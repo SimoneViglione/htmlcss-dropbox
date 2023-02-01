@@ -99,7 +99,11 @@
     background-color: rgb(245, 245, 245);
 }
 
-/* Regole di Utility*/
+.m-top {
+    margin-top: 50px;
+}
+
+/* Fine Regole di Utility*/
 
 main {
     padding-top: 60px;
@@ -150,10 +154,6 @@ main {
     margin-right: 40px;
 }
 
-.plans {
-    margin-top: 30px;
-}
-
 .column {  
     height: 1000px;
     width: calc(100% / 3);
@@ -171,15 +171,12 @@ main {
 }
 
 
+
 #team {
     height: 200px;
     margin-top: 30px;
     border: solid;
     border-width: 1px;
-}
-
-#partner {
-   margin-top: 40px;
 }
 
 .drop-partner {
@@ -195,10 +192,6 @@ main {
 }
 .text-right p {
     margin: 10px 0;
-}
-
-#operations {
-    margin-top: 70px;
 }
 
 .op-title {
