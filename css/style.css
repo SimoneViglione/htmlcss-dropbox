@@ -170,7 +170,46 @@ main {
     font-weight: lighter;
 }
 
+.top-plan {
+    margin: 20px;
+}
+.top-plan * {
+    padding-bottom: 10px;
+}
 
+.center-plan {
+    margin: 30px 20px;
+}
+.center-plan * {
+    padding: 5px 0;
+}
+
+.offer-plan {
+    margin: 30px 20px;
+}
+.offer-plan * {
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.bottom-plan {
+    margin: 30px 20px;
+    border-top: solid 1px;
+    border-color: grey;
+}
+.bottom-plan *{
+    padding: 10px 0;
+}
+.bottom-plan i {
+    color: rgb(0, 97, 255);
+}
+
+.enterprise {
+    justify-content: space-between;
+}
+.distance {
+    margin: 20px 15px;
+}
 
 #team {
     height: 200px;
