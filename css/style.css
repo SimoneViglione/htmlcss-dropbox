@@ -103,6 +103,10 @@
     margin-top: 50px;
 }
 
+.light-font {
+    color: grey;
+}
+
 /* Fine Regole di Utility*/
 
 main {
