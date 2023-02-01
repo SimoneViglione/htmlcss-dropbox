@@ -284,3 +284,10 @@ main {
 .fr-info {
     width: calc(100% / 5);
 }
+.fr-info h3 {
+    padding: 50px 0 20px;
+}
+.fr-info li {
+    padding-bottom: 20px;
+    font-size: 10px;
+}
