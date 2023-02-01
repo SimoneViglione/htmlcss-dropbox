@@ -75,6 +75,10 @@
     position: relative;
 }
 
+.overflow {
+    overflow-y: scroll;
+}
+
 /* Regole di Utility*/
 
 main {
@@ -216,25 +220,21 @@ main {
 }
 
 .square-container {
-   height: 400px;
-   width: 400px;
-   display: flex;
+   height: calc(100vw / 3);
+   width: calc(100vw / 3);
    flex-wrap: wrap;
 }
 
-.customer1 {
+.customer {
+    height: 50%;
     width: 50%;
     background-color: blueviolet;
     border-style: dotted;
-    position: relative;
 }
-.customer1 img {
-    color: white;
+
+.customer img {
     width: 60%;
-    position: absolute;
-    top: 40%;
-    left: 20%;
-}
+}    
 
 .blue-bg {
     background-color: rgb(180, 208, 231);
