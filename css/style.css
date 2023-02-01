@@ -83,6 +83,10 @@
     list-style: none;
 }
 
+.b-top {
+    border-top: solid 1px;
+}
+
 /* Regole di Utility*/
 
 main {
@@ -258,25 +262,23 @@ main {
     height: 40px;
 }
 
-.FQ {
-    margin: 30px 190px;
-}
-
 .FQ-title {
     padding: 50px 0 20px;
     font-size: 25px;
 }
 
 .questions {
-    padding: 50px 0;
+    padding: 30px 0;
     border-bottom: solid 1px;
 }
+
 .questions i {
-    margin-left: 480px;
+    margin-left: 90%;
 }
 
 .fr-container {
     background-color: black;
+    margin-top: 100px;
     height: 400px;
     color: white;
 }
@@ -289,5 +291,11 @@ main {
 }
 .fr-info li {
     padding-bottom: 20px;
+    font-size: 10px;
+}
+
+.language {
+    padding-top: 30px;
+    width: 70px;
     font-size: 10px;
 }
