@@ -87,6 +87,11 @@
     border-top: solid 1px;
 }
 
+.b-bottom {
+    border-bottom: solid 1px;
+    color: grey;
+}
+
 /* Regole di Utility*/
 
 main {
@@ -223,7 +228,6 @@ main {
 } 
 
 .customers-grid {
-    display: flex;
     margin-top: 10px;
 }
 
@@ -238,11 +242,11 @@ main {
     width: 50%;
     background-color: blueviolet;
     border-style: dotted;
-}
+}   
 
 .customer img {
-    width: 60%;
-}    
+    filter: invert(1);
+}
 
 .blue-bg {
     background-color: rgb(180, 208, 231);
